@@ -1,0 +1,105 @@
+####################################
+# Node.js dependencies
+####################################
+node_modules/
+jspm_packages/
+
+####################################
+# Logs
+####################################
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+####################################
+# Runtime data
+####################################
+pids/
+*.pid
+*.pid.lock
+
+####################################
+# Environment variables
+####################################
+.env
+.env.*
+!.env.example
+
+####################################
+# Build outputs
+####################################
+dist/
+build/
+out/
+.tmp/
+.cache/
+
+####################################
+# Coverage & test reports
+####################################
+coverage/
+.nyc_output/
+test-results/
+*.lcov
+
+####################################
+# Package manager files
+####################################
+.npm/
+.pnpm-store/
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+####################################
+# TypeScript
+####################################
+*.tsbuildinfo
+
+####################################
+# IDE / Editors
+####################################
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+*.iml
+
+####################################
+# OS files
+####################################
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+
+####################################
+# Docker
+####################################
+docker-compose.override.yml
+*.docker.env
+
+####################################
+# Database / local data
+####################################
+*.sqlite
+*.db
+*.dump
+data/
+tmp/
+
+####################################
+# Misc
+####################################
+*.bak
+*.old
+*.swp
