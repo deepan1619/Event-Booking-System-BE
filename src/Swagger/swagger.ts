@@ -64,7 +64,7 @@ export const swaggerSpec: OpenAPIV3.Document = {
           password: { type: 'string', example: 'Strong@123' },
           role: {
             type: 'string',
-            example: 'user',
+            example: 'User',
             nullable: true,
             description:
               'Optional field. Backend may ignore this value and assign role automatically.',
@@ -91,7 +91,7 @@ export const swaggerSpec: OpenAPIV3.Document = {
           uuid: { type: 'string' },
           name: { type: 'string' },
           email: { type: 'string' },
-          role: { type: 'string', example: 'user' },
+          role: { type: 'string', example: 'User' },
           is_active: { type: 'boolean' },
         },
       },
